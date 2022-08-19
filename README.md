@@ -1,9 +1,6 @@
-[![journy.io](https://raw.githubusercontent.com/journy-io/brand/main/githubbanner.png)](https://journy.io/?utm_source=github&utm_content=readme-:package)
+# Node.js Package Template
 
-# :package
-
-![npm](https://img.shields.io/npm/v/@journyio/:package?color=%234d84f5&style=flat-square)
-[![npm downloads](https://img.shields.io/npm/dm/@journyio/:package?style=flat-square)](https://www.npmjs.com/package/@journyio/:package)
+A template for creating Node.js packages @ [we are](https://we-are.be?utm_source=github).
 
 :description
 
@@ -12,25 +9,46 @@
 You can use your package manager (`npm` or `yarn`) to install:
 
 ```bash
-npm install --save @journyio/:package
+npm install --save @weare/:package
 ```
+
 or
+
 ```bash
-yarn add @journyio/:package
+yarn add @weare/:package
 ```
 
 ## 🔌 Getting started
 
 :examples
 
+# Development
+
+## 📄 Makefile
+
+The Makefile is used to create easy-to-use commands. Instead of adding complex commands (with a lot of parameters etc.)
+to this README, add a simpler version to this README file making use of the Makefile.
+
+## ⚙️ Install
+
+To install the dependencies:
+
+```bash
+make install
+```
+
 ## 💯 Tests
 
 To run the tests:
 
 ```bash
-npm run test
+make tests
 ```
 
-## 🔒 Security
+## 🚨 Lint
 
-If you discover any security related issues, please email security at journy io instead of using the issue tracker.
+To lint your code:
+
+```bash
+make lint
+```

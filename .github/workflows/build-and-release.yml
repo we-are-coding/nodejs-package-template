@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org"
-          scope: "@journyio"
+          scope: "@weare"
       - run: npm install
       - run: npm run lint
       - run: npm run test

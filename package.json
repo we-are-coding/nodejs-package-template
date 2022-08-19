@@ -1,7 +1,7 @@
 {
-  "name": "@journyio/:package",
-  "homepage": "https://github.com/journy-io/:package",
-  "repository": "github:journy-io/:package",
+  "name": "@weare/:package",
+  "homepage": "https://github.com/we-are-coding/:package",
+  "repository": "github:we-are-coding/:package",
   "version": "0.0.0",
   "description": ":description",
   "main": "dist/index.js",
@@ -27,10 +27,11 @@
     "testEnvironment": "node"
   },
   "sideEffects": false,
-  "keywords": [
-    "TODO"
-  ],
-  "author": "journy.io",
+  "keywords": [],
+  "author": {
+    "name": "we are",
+    "email": "hi@we-are.be"
+  } ,
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
